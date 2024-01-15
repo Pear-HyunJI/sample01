@@ -37,6 +37,8 @@ body {
     font-family: "Noto Sans KR", sans-serif;
 }
 
+/*======================================header================================================*/
+
 #header {
     background: rgba(0, 0, 0, 0.47);
     position: fixed;
@@ -103,6 +105,59 @@ body {
     background: #ececee;
 }
 
+/*======================================slideOuter================================================*/
+/*======================================slide 구역================================================*/
+
+#section .slideOuter .slideInner {
+    position: relative;
+}
+
+#section .slideOuter .slideInner button.slick-arrow {
+    border: none;
+    background: none;
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+}
+
+#section .slideOuter .slideInner button.slick-next {
+    right: 50px;
+}
+
+#section .slideOuter .slideInner button.slick-prev {
+    left: 50px;
+    z-index: 99;
+}
+
+#section .slideOuter .slideInner ul.slick-dots {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 50px;
+
+}
+
+#section .slideOuter .slideInner ul.slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#section .slideOuter .slideInner ul.slick-dots li button {
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-indent: 9999px;
+    overflow: hidden;
+    background: #fff;
+}
+
+#section .slideOuter .slideInner ul.slick-dots li.slick-active button {
+    background: #f00;
+}
+
 #section .slide {
     /* 자식이 부모를 기준으로 배치될때 부모한테 주는 속성 */
     position: relative;
@@ -141,6 +196,8 @@ body {
     padding: 15px 35px;
     border-radius: 50px;
 }
+
+/*======================================business================================================*/
 
 #section .business ul {
     overflow: hidden;
@@ -191,6 +248,8 @@ body {
     color: #45639d;
 }
 
+/*======================================product================================================*/
+
 #section .product {
     background: url(../image/product_bg.jpg) center / cover;
     padding: 100px 0;
@@ -237,6 +296,8 @@ body {
     padding-top: 60px;
 }
 
+/*======================================customer================================================*/
+
 #section .customer {
     background-color: #edf0f4;
     padding: 50px 0;
@@ -262,6 +323,8 @@ body {
 #section .customer .row div span img {
     border: 1px solid #ddd;
 }
+
+/*======================================footer================================================*/
 
 #footer .address {
     font-size: 16px;
