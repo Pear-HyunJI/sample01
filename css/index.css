@@ -152,10 +152,14 @@ body {
     text-indent: 9999px;
     overflow: hidden;
     background: #fff;
+    transition: all 0.2s;
 }
 
 #section .slideOuter .slideInner ul.slick-dots li.slick-active button {
     background: #f00;
+    width: 40px;
+    border-radius: 10px;
+
 }
 
 #section .slide {
