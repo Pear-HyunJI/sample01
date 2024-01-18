@@ -374,7 +374,7 @@ body {
     overflow: hidden;
 }
 
-c #section .customer .row div span img {
+#section .customer .row div span img {
     border: 1px solid #ddd;
 }
 

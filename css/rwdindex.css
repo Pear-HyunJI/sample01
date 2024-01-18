@@ -107,7 +107,10 @@
         background: #ececee;
     }
 
-
+    #section .slide img {
+        width: auto;
+        min-height: 372px;
+    }
 
     /*===================슬라이드 도트버튼======================*/
     #section .slideOuter .slideInner ul.slick-dots {
